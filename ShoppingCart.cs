@@ -7,16 +7,17 @@ namespace ShoppingCart
     {
         static void Main(string[] args)
         {
-			double nettoPreis;     
+	    double nettoPreis;     
             int stueckZahl;      
             string geschenkOption;        
             string land; 
+	    const double GESCHENKOPTION_PREIS = 2.50;
+	    const int MWST_DE = 19;
+	    const int MWST_AT = 20;
+	    const double VERSANDKOSTEN = 5.90;
+            const double MINIMUM = 29.0;
 			
-			const double GESCHENKOPTION_PREIS = 2.50;
-			const int MWST_DE = 19;
-			const int MWST_AT = 20;
-			const double VERSANDKOSTEN = 5.90;
-			const double MINIMUM = 29.0;
+			
 
 
             Console.WriteLine("Shopping Cart");
